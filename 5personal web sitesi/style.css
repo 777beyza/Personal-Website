@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpapercave.com/wp/wp2936849.jpg);
+    background-size: cover;
+}
+
+.box{
+    width: 450px;
+    background-color: #90EE90;
+    padding: 45px;
+    text-align: center;
+    margin: auto;
+    /* açık yeşil kutumuzu ortaya alıyor. */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box img:hover{
+    transform: scale(0.9s);
+}
+
+.box h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.box h3{
+    font-size: 20px;
+    font-weight: 100;
+    /* font-weight özelliği yazı tipinin kalınlığını belirtmek için kullanılır. */
+    letter-spacing: 4px;
+}
+
+.box p{
+    text-align: justify;
+    /* paragrafı 2 yana yaslar eşitçe */
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box li{
+    display: inline-block;
+    /*ikonlar yan yana olur inline block ile */
+    margin: 6px;
+    /*ikonların arasını açar. */
+    list-style: none;
+}
+
+.box li a{
+    color: hotpink;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color: #b9b9b9;
+}
